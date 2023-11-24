@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01</title>
+</head>
+
+<body>
+    <h1 id="intro">Introdução ao html na prática</h1>
+    <hr>
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="#ferramentas">Ferramentas utilizadas.</a></li>
+        <li><a href="#inspetor">Inspetor de elementos.</a></li>
+        <li><a href="#estrutura">Estrutura Básica do Html.</a></li>
+        <li><a href="#tags">Falando sobre tags.</a></li>
+        <li><a href="#atributos">Atributos das tags.</a></li>
+        <li><a href="#textos">Textos.</a></li>
+        <li><a href="#listas">Listas Ordenadas e não Ordenadas.</a></li>
+        <li><a href="#links">Links.</a></li>
+        <li><a href="#referencias">Referências.</a></li>
+    </ul>
+    <h2 id="ferramentas">Ferramentas utilizadas</h2>
+    <p>Utilizaremos o <a href="https://code.visualstudio.com/">Visual Studio Code</a> para
+        implementar o nosso código</p>
+    <h2>O que é VS Code?</h2>
+    <p>O Visual Studio Code (VS Code) é um editor de código de código aberto desenvolvido pela Microsoft.</p>
+    <p>A saber, ele está disponível para Windows, Mac e Linux. É criado com Electron, ferramenta criada pelo GitHub que
+        permite a criação de softwares Desktop com HTML, CSS e JavaScript.</p>
+    <!--https://www.treinaweb.com.br/blog/vs-code-o-que-e-e-por-que-voce-deve-usar-->
+    <small><a href="#intro">início</a></small>
+
+    <h2 id="inspetor">Inspetor de elementos</h2>
+    <p>Podemos utilizar a inspeção de elementos no navegador para verificar como está a construção da página
+        e como está seu html e o seu css
+    </p>
+    <h3>Você pode acessar a inspeção de elmentos das seguintes opções:</h3>
+    <ul>
+        <li>Clique com o botão direito do mouse em qualquer lugar de uma página e escolha a opção "Inspecionar";</li>
+        <li>Pressione as teclas <i>Ctrl + Shift + I</i> no Windows ou <i>Cmd + Option + I</i> no Mac para acessar a
+            ferramenta rapidamente;</li>
+        <li>Clique no botão de três pontos no canto superior da tela e vá em <i>Mais Ferramentas > Ferramentas do
+                desenvolvedor</i>.</li>
+    </ul>
+    <!-- https://canaltech.com.br/apps/como-inspecionar-uma-pagina-no-chrome/ -->
+    <small><a href="#intro">início</a></small>
+
+    <h2 id="estrutura">Estrutura Básica do Html.</h2>
+    <p>
+        O documento HTML sempre inicia com o que chamamos de estrutura básica.
+        Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre,
+        sempre começará seu HTML começando por esse código. Geralmente os editores como
+        o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo,
+        você não precisa se preocupar em decorá-la, mas é bom que faça. Veja abaixo como ela se inicia:
+    </p>
+    <ol>
+        <li>
+            < !DOCTYPE html>
+        </li>
+        <li>
+            < html lang="pt-br">
+        </li>
+        <li>
+            < head>
+        </li>
+        <li>
+            < title> Título da página </ title>
+        </li>
+        <li>
+            < meta charset="utf-8">
+        </li>
+        <li>
+            < / head>
+        </li>
+        <li>
+            < body>
+        </li>
+        <li> Aqui vai o código HTML que fará seu site aparecer.</li>
+        <li>
+            < / body>
+        </li>
+        <li>
+            < / html>
+        </li>
+    </ol>
+    <!-- https://tableless.github.io/iniciantes/manual/html/estruturabasica.html -->
+    <small><a href="#intro">início</a></small>
+
+    <h2 id="tags">Falando sobre tags.</h2>
+    <h3>O que são tags ?</h3>
+    <p>Tags HTML são instruções que informam ao navegador como formatar o texto. Você pode usar tags para definir
+        itálico, quebras de linha, objetos, bullet points e muito mais.
+
+        Essas tags estão presentes no HTML (Hypertext Markup Language) de todas as páginas da internet</p>
+    <!-- https://pt.semrush.com/blog/tags-html/?kw=&cmp=BR_POR_SRCH_DSA_Blog_PT&label=dsa_pagefeed&Network=g&Device=c&utm_content=678287390053&kwid=dsa-2227432791027&cmpid=19241772885&agpid=158827186990&BU=Core&extid=109814357886&adpos=&gad_source=1&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJEc7pC1bVBKTCI8QCO8ShcUVmi_a_Ev2WMc-ztoIhaeLj8FORPyGOBoCT2MQAvD_BwE -->
+    <small><a href="#intro">início</a></small>
+
+    <h2 id="atributos">Atributos das tags</h2>
+    <p>Atributos são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação).</p>
+    <p>Os Atributos possuem nome e um valor, existem Atributos que você vai usar praticamente sempre e existem outros que serão mais raros.</p>
+    <small><a href="#intro">início</a></small>
+    <!-- https://tableless.github.io/iniciantes/manual/html/oquetags.html -->
+
+    <h2 id="textos">Textos.</h2>
+    <p>Os textos no html podem ser alterados de formatação, tanto no próprio html utilizando atributos das tags como falamos anteriormente, quanto via CSS, ou até por tags especiais.</p>
+    <small><a href="#intro">início</a></small>
+    <!-- https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals -->
+
+    <h2 id="listas">Listas ordenadas e não ordenadas.</h2>
+    <p><strong>Listas não Ordenadas</strong></p>
+    <p>Uma lista não ordenada é uma lista de itens. As listas de itens são marcadas com bullets (tipicamente pequenos círculos pretos).</p>
+    <p>Uma lista não ordenada começa com a tag < ul >. Cada item da lista começa com a tag < li >.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <p><strong>Listas Ordenadas</strong></p>
+    <p>Uma lista ordenada é também uma lista de itens. As listas de itens são marcadas com números.</p>
+    <p>Uma lista ordenada começa com a tag < ol >. Cada item da lista começa com a tag < li >.</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    
+    <small><a href="#intro">início</a></small>
+    <!-- http://www.clem.ufba.br/tuts/html/c10.htm -->
+
+    <h2 id="links">Links</h2>
+    <p>O elemento <a> em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada <a> precisará indicar o destino do link.</p>
+    <small><a href="#intro">voltar</a></small>
+    <!-- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a -->
+
+    <h2 id="referencias">Referências</h2>
+    <ol>
+        <li><a href="https://www.treinaweb.com.br/blog/vs-code-o-que-e-e-por-que-voce-deve-usar" target="_blank">Ferramentas utilizadas - Treina Web</a></li>
+        <li><a href="https://canaltech.com.br/apps/como-inspecionar-uma-pagina-no-chrome/" target="_blank">Inspetor de elementos - Canaltech</a></li>
+        <li><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" target="_blank">Estrutura Básica do Html - Tableless</a></li>
+        <li><a href="https://pt.semrush.com/blog/tags-html/?kw=&cmp=BR_POR_SRCH_DSA_Blog_PT&label=dsa_pagefeed&Network=g&Device=c&utm_content=678287390053&kwid=dsa-2227432791027&cmpid=19241772885&agpid=158827186990&BU=Core&extid=109814357886&adpos=&gad_source=1&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJEc7pC1bVBKTCI8QCO8ShcUVmi_a_Ev2WMc-ztoIhaeLj8FORPyGOBoCT2MQAvD_BwE" target="_blank">Falando sobre tags - Semrush</a></li>
+        <li><a href="https://tableless.github.io/iniciantes/manual/html/oquetags.html" target="_blank">Atributos das tags - Tableless</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals" target="_blank">Textos - developer.mozilla</a></li>
+        <li><a href="http://www.clem.ufba.br/tuts/html/c10.htm" target="_blank">Listas Ordenadas e não Ordenadas - clem.ufba</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target="_blank">Links - developer.mozilla</a></li>
+    </ol>
+    <small><a href="#intro">início</a></small>
+    
+</body>
+
+</html>
